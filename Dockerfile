@@ -11,5 +11,5 @@ FROM alpine:latest
 
 WORKDIR /app
 
-COPY --from=builder /app/target/release/osmia-cli ./osmia-cli
-ENTRYPOINT ["./osmia-cli"]
+COPY --from=builder /app/target/release/osmia-cli /osmia-cli
+ENTRYPOINT ["/osmia-cli"]
