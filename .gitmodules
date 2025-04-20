@@ -1,0 +1,3 @@
+[submodule "osmia-cli"]
+	path = osmia-cli
+	url = https://github.com/jkutkut/osmia-cli
