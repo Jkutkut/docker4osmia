@@ -2,7 +2,6 @@
 
 This repository contains the logic needed to run [osmia](https://github.com/jkutkut/osmia)
 ([osmia-cli](https://github.com/jkutkut/osmia-cli)) on a docker container.
-
 This container allows to execute the cli the same was as if you were running it locally.
 
 ## Usage
